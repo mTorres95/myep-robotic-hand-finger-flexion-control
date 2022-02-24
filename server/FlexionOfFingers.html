@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyEP Torres</title>
+</head>
+<body>
+	<div align="center" style="width: 400px">
+	
+		<h3> Flexion of fingers </h3>
+		<form method="POST" enctype="multipart/form-data" action="hello">  <!-- VERY IMPORTANT!! -> enctype="multipart/form-data" -->
+			
+			<div class="form-row" style="margin-bottom: 10px;">
+				<label for="finger1">Thumb </label>
+				<div style="float: right;">
+					<div style="float: left;"><input id="finger1" type="range" min="0" max="100" name="finger1" value="%s"/></div><div style="float: right;">%s %</div>
+				</div>
+			</div>
+
+
+			
+			<div class="form-row" style="margin-bottom: 10px;">
+				<label for="finger2">Index </label>
+				<div style="float: right;">
+					<div style="float: left;"><input id="finger2" type="range" min="0" max="100" name="finger2" value="%s"/></div><div style="float: right;">%s %</div>
+				</div>
+			</div>
+
+			<div class="form-row" style="margin-bottom: 10px;">
+				<label for="finger3">Middle </label>
+				<div style="float: right;">
+					<div style="float: left;"><input id="finger3" type="range" min="0" max="100" name="finger3" value="%s"/></div><div style="float: right;">%s %</div>
+				</div>
+			</div>
+			
+			<div class="form-row" style="margin-bottom: 10px;">
+				<label for="finger4">Ring </label>
+				<div style="float: right;">
+					<div style="float: left;"><input id="finger4" type="range" min="0" max="100" name="finger4" value="%s"/></div><div style="float: right;">%s %</div>
+				</div>
+			</div>
+			
+			<div class="form-row" style="margin-bottom: 10px;">
+				<label for="finger5">Pinky </label>
+				<div style="float: right;">
+					<div style="float: left;"><input id="finger5" type="range" min="0" max="100" name="finger5" value="%s"/></div><div style="float: right;">%s %</div>
+				</div>
+			</div>
+
+			<input type="submit" value="submit" />
+		</form>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

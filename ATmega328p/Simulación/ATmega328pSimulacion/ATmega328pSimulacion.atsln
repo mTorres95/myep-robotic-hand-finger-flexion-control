@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Master", "Master\Master.cproj", "{2DA12FB1-BB93-4E99-A6C5-2A99232989C5}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Slave", "Slave\Slave.cproj", "{9E885CE1-EC75-4AE1-95A7-0A50613C2006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DA12FB1-BB93-4E99-A6C5-2A99232989C5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2DA12FB1-BB93-4E99-A6C5-2A99232989C5}.Debug|AVR.Build.0 = Debug|AVR
+		{2DA12FB1-BB93-4E99-A6C5-2A99232989C5}.Release|AVR.ActiveCfg = Release|AVR
+		{2DA12FB1-BB93-4E99-A6C5-2A99232989C5}.Release|AVR.Build.0 = Release|AVR
+		{9E885CE1-EC75-4AE1-95A7-0A50613C2006}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9E885CE1-EC75-4AE1-95A7-0A50613C2006}.Debug|AVR.Build.0 = Debug|AVR
+		{9E885CE1-EC75-4AE1-95A7-0A50613C2006}.Release|AVR.ActiveCfg = Release|AVR
+		{9E885CE1-EC75-4AE1-95A7-0A50613C2006}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
